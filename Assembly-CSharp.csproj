@@ -84,6 +84,12 @@
     <Compile Include="Assets/Scripts/Player/getItem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
+    <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Object.shader" />
+    <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Global.shader" />
+    <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Glass_Object.shader" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
       <Private>False</Private>

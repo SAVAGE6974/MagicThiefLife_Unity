@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Sirenix.OdinInspector;
 
 public class Button_Sale : MonoBehaviour
 {
     [SerializeField] private UIOpenDetail uiOpenDetail;
-    [Header("판매 아이템 정보. price의 값은 직접 변경해야지, \nplayerPrefs에 정상적으로 저장됩니다.")]
+    [InfoBox("판매 아이템 정보. price의 값은 직접 변경해야지, \nplayerPrefs에 정상적으로 저장됩니다.")]
 
     public Text itemName;
 
