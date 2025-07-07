@@ -11,6 +11,7 @@ public class OpenStorePannel : MonoBehaviour
     public bool isStoreOpen = false; // 이 변수가 상점 상태를 나타내는 주 변수입니다.
     
     public GameObject openStoreObject;
+    public GameObject menuBar;
 
     private void Awake()
     {
@@ -19,10 +20,6 @@ public class OpenStorePannel : MonoBehaviour
     
     public void OpenStore() // 이 메서드는 GetKeyDown(KeyCode.E)에 의해 호출됩니다.
     {
-        // GetKeyDown은 Update에서만 제대로 작동합니다.
-        // cheakReyCast에서 OpenStore()를 호출하는 방식은 GetKeyDown을 한 번 놓칠 수 있습니다.
-        // 하지만 현재 로직에서는 E 키가 눌렸을 때만 내부 조건문이 실행되므로 큰 문제는 아닐 수 있습니다.
-        // 다만, 더 견고하게 만들려면 cheakReyCast에서 E 키 입력을 처리하는 것이 좋습니다.
         if (Input.GetKeyDown(KeyCode.E)) 
         {
             if (!isStoreOpen) // 현재 isStoreOpen을 기준으로 상점 열기/닫기를 결정합니다.
@@ -32,6 +29,7 @@ public class OpenStorePannel : MonoBehaviour
                 isStoreOpen = true; // 상점이 열렸음을 표시
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
+                menuBar.SetActive(true); // 메뉴 바 비활성화
             }
             else // 상점이 이미 열려있는 경우 (닫기)
             {
@@ -39,6 +37,7 @@ public class OpenStorePannel : MonoBehaviour
                 openStoreObject.SetActive(false); // 상점 패널 비활성화
                 isStoreOpen = false; // 상점이 닫혔음을 표시
                 uiOpenDetail.CloseDetailPanel(); // 상세 패널도 닫기
+                menuBar.SetActive(false); // 메뉴 바 비활성화
             }
         }
     }

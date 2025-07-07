@@ -1,0 +1,2453 @@
+Unity Editor version:    2022.3.60f1 (5f63fdee6d95)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 16.0 (Build 25A5295e)
+Darwin version:          25.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/anjaemin/GitHub/MagicThiefLife_Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63125
+Successfully changed project path to: /Users/anjaemin/GitHub/MagicThiefLife_Unity
+/Users/anjaemin/GitHub/MagicThiefLife_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8802790528]  Target information:
+
+Player connection [8802790528]  * "[IP] 10.80.161.205 [Port] 0 [Flags] 2 [Guid] 2832485887 [EditorId] 2832485887 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8802790528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8802790528] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 23.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.60f1 (5f63fdee6d95)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anjaemin/GitHub/MagicThiefLife_Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M4 (high power)
+Metal devices available: 1
+0: Apple M4 (high power)
+Using device Apple M4 (high power)
+Initializing Metal device caps: Apple M4
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56787
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.60f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002649 seconds.
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.121 seconds
+Domain Reload Profiling: 316ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (98ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 945ms
+	BeginReloadAssembly (53ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (49.9 KB). Loaded Objects now: 4110.
+Memory consumption went from 153.3 MB to 153.3 MB.
+Total: 13.388416 ms (FindLiveObjects: 0.105542 ms CreateObjectMapping: 0.031458 ms MarkObjects: 13.155042 ms  DeleteObjects: 0.095916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x173ac7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.237 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 886ms
+	BeginReloadAssembly (59ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.5 KB). Loaded Objects now: 4113.
+Memory consumption went from 161.3 MB to 161.2 MB.
+Total: 12.080458 ms (FindLiveObjects: 0.099792 ms CreateObjectMapping: 0.031583 ms MarkObjects: 11.914500 ms  DeleteObjects: 0.034166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16e907000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.294 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1058ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (764ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.5 KB). Loaded Objects now: 4116.
+Memory consumption went from 170.9 MB to 170.8 MB.
+Total: 11.012625 ms (FindLiveObjects: 0.088500 ms CreateObjectMapping: 0.034250 ms MarkObjects: 10.844167 ms  DeleteObjects: 0.045083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16e907000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1094ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.5 KB). Loaded Objects now: 4119.
+Memory consumption went from 180.7 MB to 180.7 MB.
+Total: 11.151459 ms (FindLiveObjects: 0.106958 ms CreateObjectMapping: 0.033334 ms MarkObjects: 10.964875 ms  DeleteObjects: 0.045708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16bb33000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.267 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.6 KB). Loaded Objects now: 4122.
+Memory consumption went from 190.9 MB to 190.8 MB.
+Total: 11.752584 ms (FindLiveObjects: 0.106292 ms CreateObjectMapping: 0.035083 ms MarkObjects: 11.561250 ms  DeleteObjects: 0.049459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16bb33000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.206 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 1074ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.6 KB). Loaded Objects now: 4125.
+Memory consumption went from 188.5 MB to 188.5 MB.
+Total: 12.168208 ms (FindLiveObjects: 0.172083 ms CreateObjectMapping: 0.038250 ms MarkObjects: 11.921958 ms  DeleteObjects: 0.035500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 996ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.6 KB). Loaded Objects now: 4128.
+Memory consumption went from 211.2 MB to 211.2 MB.
+Total: 11.088083 ms (FindLiveObjects: 0.098708 ms CreateObjectMapping: 0.032167 ms MarkObjects: 10.920708 ms  DeleteObjects: 0.035958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.209 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.5 KB). Loaded Objects now: 4131.
+Memory consumption went from 221.4 MB to 221.4 MB.
+Total: 12.160000 ms (FindLiveObjects: 0.097958 ms CreateObjectMapping: 0.033625 ms MarkObjects: 11.981083 ms  DeleteObjects: 0.046834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.208 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (29.6 KB). Loaded Objects now: 4134.
+Memory consumption went from 219.1 MB to 219.0 MB.
+Total: 11.838042 ms (FindLiveObjects: 0.127125 ms CreateObjectMapping: 0.033375 ms MarkObjects: 11.638833 ms  DeleteObjects: 0.038083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.265 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (1.4 MB). Loaded Objects now: 4138.
+Memory consumption went from 245.9 MB to 244.5 MB.
+Total: 12.226084 ms (FindLiveObjects: 0.108292 ms CreateObjectMapping: 0.032000 ms MarkObjects: 11.602417 ms  DeleteObjects: 0.482875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90495.245139 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Brown.mat
+  artifactKey: Guid(4d21dd5a8b5afa745bbd680f6e13697e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Brown.mat using Guid(4d21dd5a8b5afa745bbd680f6e13697e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '686940aa2303685351dc0e2eb118246c') in 0.287184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Materials/PolyAdventureMaterial_Dark_02.mat
+  artifactKey: Guid(b437f558bb1a803499e54f549c2bda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Materials/PolyAdventureMaterial_Dark_02.mat using Guid(b437f558bb1a803499e54f549c2bda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a4cf134d954d5b6482cd41b37028a865') in 0.004783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SyntyStudios/PolygonAdventure/Materials/PolyAdventureMaterial_Water_01.mat
+  artifactKey: Guid(9045494f93452344d811e0d183904816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonAdventure/Materials/PolyAdventureMaterial_Water_01.mat using Guid(9045494f93452344d811e0d183904816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e933a9dad395f6e55393177ce08f246c') in 0.220471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.232 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.933 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (593ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (1.4 MB). Loaded Objects now: 4182.
+Memory consumption went from 258.8 MB to 257.4 MB.
+Total: 13.075333 ms (FindLiveObjects: 0.136375 ms CreateObjectMapping: 0.041958 ms MarkObjects: 12.414375 ms  DeleteObjects: 0.482125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16b2ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.361 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.174 seconds
+Domain Reload Profiling: 1536ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1175ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (1.4 MB). Loaded Objects now: 4185.
+Memory consumption went from 269.1 MB to 267.7 MB.
+Total: 15.050834 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.060042 ms MarkObjects: 14.188000 ms  DeleteObjects: 0.630084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OdinUpgrader.cs: ee3d9228da7555b7ff3d8bc8c2e703d7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 376.904381 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_ArrowSlit_01_Snow.fbx
+  artifactKey: Guid(74933f0bb423af44b9688bc392b27638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_ArrowSlit_01_Snow.fbx using Guid(74933f0bb423af44b9688bc392b27638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '96cfef267d6c84e42e70798daa26666f') in 0.273470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Base_01.fbx
+  artifactKey: Guid(fbacd6e00aeaa2949b04802d395f0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Base_01.fbx using Guid(fbacd6e00aeaa2949b04802d395f0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '68205e50fe9e45db75d930b4dea76b6a') in 0.008320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01.fbx
+  artifactKey: Guid(f02abd59e0d6e5c47982126d51e3bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01.fbx using Guid(f02abd59e0d6e5c47982126d51e3bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9b576078ef661d2d76ade343c0efeb7c') in 0.008487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_01.fbx
+  artifactKey: Guid(5c2734c723764924ebd0458ab8293423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_01.fbx using Guid(5c2734c723764924ebd0458ab8293423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '799186a4c55dc94e1823226032640026') in 0.009206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Roof_Spire_01.fbx
+  artifactKey: Guid(7e7c9acd14653eb4eb7ff9ced7108c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Roof_Spire_01.fbx using Guid(7e7c9acd14653eb4eb7ff9ced7108c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ee436ba28d892ce1046a50df06956dcd') in 0.007921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Wall_Top_01_Lite.fbx
+  artifactKey: Guid(de598f098760588468a630ed86fc5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Wall_Top_01_Lite.fbx using Guid(de598f098760588468a630ed86fc5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e77f3fb96fa1a9c1b84ab5154dd8ff8e') in 0.007351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_01.fbx
+  artifactKey: Guid(ecfce6b934d2f1e46a04bdc5b223fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_01.fbx using Guid(ecfce6b934d2f1e46a04bdc5b223fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '14d4eda6d2f8d8445f837ee8497a2e7a') in 0.007717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Flag_01.fbx
+  artifactKey: Guid(df1b55231d0f07744a3d1a9ec9652e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Flag_01.fbx using Guid(df1b55231d0f07744a3d1a9ec9652e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2d409a38bd390b56d5b498929c5feb61') in 0.007612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01_Snow.fbx
+  artifactKey: Guid(4d265383abd45a34b91a3e4b6f39a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01_Snow.fbx using Guid(4d265383abd45a34b91a3e4b6f39a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '233e4eaa11996175f23f2105c443d736') in 0.007378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_01_Lite.fbx
+  artifactKey: Guid(e330742a442cc044683c72a0f6dde3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wall_01_Lite.fbx using Guid(e330742a442cc044683c72a0f6dde3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7a1b33678fc3da29aa9d9c7845123095') in 0.007695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow.fbx
+  artifactKey: Guid(02f5295ae270aa84780121af61c8dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow.fbx using Guid(02f5295ae270aa84780121af61c8dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3293191a94f19df90ef52ed543d3c0b6') in 0.007841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01_Lite.fbx
+  artifactKey: Guid(a689901f08ecd26478b453df579e9a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01_Lite.fbx using Guid(a689901f08ecd26478b453df579e9a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '775a6bfda78d209de5ebce8d27de1e13') in 0.007540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_02_Lite.fbx
+  artifactKey: Guid(2ea4e879c341e4b40999bf5f4a621bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_02_Lite.fbx using Guid(2ea4e879c341e4b40999bf5f4a621bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3f5d6724f68ca3a02dd570d1a9c563ba') in 0.007965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow.fbx
+  artifactKey: Guid(79a8cec10649229459f4a491bede6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow.fbx using Guid(79a8cec10649229459f4a491bede6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a84263bed7dae968adf551858f2341be') in 0.007960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Door_01_Snow.fbx
+  artifactKey: Guid(4aff020c5d8093e4595ef1ad34c67149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Door_01_Snow.fbx using Guid(4aff020c5d8093e4595ef1ad34c67149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7685361fd0cdcae26bbb8982503d4936') in 0.020829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Iron_Gate_01.fbx
+  artifactKey: Guid(96e7bed35648db84d90692e794c9dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Iron_Gate_01.fbx using Guid(96e7bed35648db84d90692e794c9dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9e7144f341c1a99c6922ad10c2237418') in 0.006763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_01_Lite.fbx
+  artifactKey: Guid(30daf2c9b79aa444f8f5c563c1003bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_01_Lite.fbx using Guid(30daf2c9b79aa444f8f5c563c1003bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2594547792d67c80fe396fb6cee3a89c') in 0.006768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01.fbx
+  artifactKey: Guid(eb5c7e18b9ab42340b7aa7340a1dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01.fbx using Guid(eb5c7e18b9ab42340b7aa7340a1dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0c85f2c0a563c4cd94cf55326be2f055') in 0.008093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_02_Lite.fbx
+  artifactKey: Guid(8bd6c50aa1e4e0447991a74acbd18c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_02_Lite.fbx using Guid(8bd6c50aa1e4e0447991a74acbd18c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '529400cf6141c22aa6fa5ec8cb66d10c') in 0.006881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01.fbx
+  artifactKey: Guid(f300c9ec0991f434c9aee22998ba0566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Top_01.fbx using Guid(f300c9ec0991f434c9aee22998ba0566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b5f95bc0e7544f51b8e85ffe883d7679') in 0.007347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02.fbx
+  artifactKey: Guid(8ccf24a9aab24844f88ede55ea50735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02.fbx using Guid(8ccf24a9aab24844f88ede55ea50735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1d50170a39a1650b7848cd88512328c9') in 0.007075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_01.fbx
+  artifactKey: Guid(468f6350f64b1994da26ff44a4deaa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Round_01.fbx using Guid(468f6350f64b1994da26ff44a4deaa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '36833f3fee5334ed315f082a722627a4') in 0.008357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow.fbx
+  artifactKey: Guid(110f3e51a9a872f4c8a135962d3ce5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow.fbx using Guid(110f3e51a9a872f4c8a135962d3ce5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f38fc9cecbb44b4fd80eff9504db968b') in 0.011788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_03_Lite.fbx
+  artifactKey: Guid(a5cde09a730093744a1a8182d5bba429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Tower_03_Lite.fbx using Guid(a5cde09a730093744a1a8182d5bba429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3ee8cd8a93f2b83f25811bc887cea813') in 0.007554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.292236 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow.fbx
+  artifactKey: Guid(7fea654e49e114841b43c1eccdc9eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow.fbx using Guid(7fea654e49e114841b43c1eccdc9eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '62fd4cbce7016ec01b414c0510aee18d') in 0.041656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Door_01.fbx
+  artifactKey: Guid(f7a88bcea2579d24f939db925537fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Door_01.fbx using Guid(f7a88bcea2579d24f939db925537fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '37391fe5290ded24ca16d18ee036c258') in 0.009147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Lite.fbx
+  artifactKey: Guid(4a3c95a31013c7547a67f23d235ad2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01_Lite.fbx using Guid(4a3c95a31013c7547a67f23d235ad2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '623420f8a5d80758ed7d1997a74ad761') in 0.011125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Door_01_Snow.fbx
+  artifactKey: Guid(d1283f0c8b68b9a4d878a789e5bfd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Door_01_Snow.fbx using Guid(d1283f0c8b68b9a4d878a789e5bfd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4026d18bf6fdb3d14e1c797fa5641b60') in 0.009002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow.fbx
+  artifactKey: Guid(bdbe413e4790213499213e4f26a8baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow.fbx using Guid(bdbe413e4790213499213e4f26a8baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ddbd6e3e5ab2824d59c6959f0abc5405') in 0.012253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01.fbx
+  artifactKey: Guid(35fe8825dd7b5b24ca4dc1e587edc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Extension_01.fbx using Guid(35fe8825dd7b5b24ca4dc1e587edc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e61b71e0a83ab62c24c07887a99f3818') in 0.008916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.007758 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01.fbx
+  artifactKey: Guid(7176e4efa2ad73b49bc96eb6eaff45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01.fbx using Guid(7176e4efa2ad73b49bc96eb6eaff45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7896220c855225fe437832a65a3356fd') in 0.007719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_03_Lite.fbx
+  artifactKey: Guid(8154d5ecc23fd5b46ab8ec985cf0b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_03_Lite.fbx using Guid(8154d5ecc23fd5b46ab8ec985cf0b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1257d211b9dcffb8d41c9c8f50a58118') in 0.009076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02_Lite.fbx
+  artifactKey: Guid(221b6bf515d979e4ab26407c624dfab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_02_Lite.fbx using Guid(221b6bf515d979e4ab26407c624dfab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '10fd6025e94ceb5ca80ae974b3634aba') in 0.008916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Lite.fbx
+  artifactKey: Guid(5343d8a371018db408b667141165e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Lite.fbx using Guid(5343d8a371018db408b667141165e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9f508db8742bc315ca1780c6d18f9496') in 0.014437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Snow.fbx
+  artifactKey: Guid(0719ba4ee71558b47bde7e8be7d384e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Room_01_Snow.fbx using Guid(0719ba4ee71558b47bde7e8be7d384e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0eaf896b00d6bc4c281d927014bc4cf3') in 0.010583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_01_Lite.fbx
+  artifactKey: Guid(f4d849c8613c8f147ba481f429b350c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_01_Lite.fbx using Guid(f4d849c8613c8f147ba481f429b350c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '54eb4071dd3e99cde28b91a5a9436464') in 0.008800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.226423 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02.fbx
+  artifactKey: Guid(9fed204465033c146aeaab36dda8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02.fbx using Guid(9fed204465033c146aeaab36dda8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1266fbc7f7e71766c6c1b87e5011c137') in 0.008601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02_Snow.fbx
+  artifactKey: Guid(fb031763b78b62f41895cb077c98adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02_Snow.fbx using Guid(fb031763b78b62f41895cb077c98adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1e37031700026a2e3e6f0d157e1c6df8') in 0.010756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_TowerBase_01_Lite.fbx
+  artifactKey: Guid(df2b8814475a8054fa4593373eeb028f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_TowerBase_01_Lite.fbx using Guid(df2b8814475a8054fa4593373eeb028f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd01af78c4495a905a2673db44bf54fee') in 0.007051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Window_01.fbx
+  artifactKey: Guid(714aa364e72468641a571d46daf6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Window_01.fbx using Guid(714aa364e72468641a571d46daf6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '594e931c3843eef34f946b3def49ec5b') in 0.006978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02_Lite.fbx
+  artifactKey: Guid(6ac102ebfd4bde643a5405ed0bfc849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_Church_Tower_02_Lite.fbx using Guid(6ac102ebfd4bde643a5405ed0bfc849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '11ddead47537dfb28362dac477d9642f') in 0.009286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_03.fbx
+  artifactKey: Guid(5e78c0abbb6561740891cb3f5bca856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_03.fbx using Guid(5e78c0abbb6561740891cb3f5bca856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7002ef24cabe381645c6815c07603070') in 0.006512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_01_Snow.fbx
+  artifactKey: Guid(39b4be4c0f26623429d8f29e45790a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_01_Snow.fbx using Guid(39b4be4c0f26623429d8f29e45790a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '400df3e2248dd32eab9ea2a6ddec22b2') in 0.006415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_04_Snow.fbx
+  artifactKey: Guid(ad3cdbce97be8e4478f8e47e1cacd977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_04_Snow.fbx using Guid(ad3cdbce97be8e4478f8e47e1cacd977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '35c51b1c087d31778d246f5e576c18cd') in 0.006775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_02_Snow.fbx
+  artifactKey: Guid(43a518005b3023646b657c5cf6b1de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_02_Snow.fbx using Guid(43a518005b3023646b657c5cf6b1de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9408e2cd9c699f7984ecf6edf3b71b48') in 0.006185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_01.fbx
+  artifactKey: Guid(a6b188fb7aea5624fa40ae7535d6f6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_01.fbx using Guid(a6b188fb7aea5624fa40ae7535d6f6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b884e623e5b1d55fddea5fd2d5a94596') in 0.009755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_02.fbx
+  artifactKey: Guid(dc6337257de0f304db805b57bcd0f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_02.fbx using Guid(dc6337257de0f304db805b57bcd0f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8159c01dacd7365dc3f3571a99263448') in 0.006071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_02_Snow.fbx
+  artifactKey: Guid(5b7225f9483685d4ebf620f4e35fa50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Chimney_02_Snow.fbx using Guid(5b7225f9483685d4ebf620f4e35fa50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bad7476b7f3aa109285891a4ba731de1') in 0.006790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.697569 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_04.fbx
+  artifactKey: Guid(b755857268ff1064e893be694df0d39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_04.fbx using Guid(b755857268ff1064e893be694df0d39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f4fddc39acb7d3c39b374eda6606db15') in 0.008041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_04_Snow.fbx
+  artifactKey: Guid(0d55731b36cef39469c4fcd97446d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Door_04_Snow.fbx using Guid(0d55731b36cef39469c4fcd97446d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '29ea0338b3bbe211d675031bd7275192') in 0.010812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_04.fbx
+  artifactKey: Guid(15855236fd811a24ea607c5bdc281144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_04.fbx using Guid(15855236fd811a24ea607c5bdc281144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0b5301b0c767ab2299f72c13ce00c93b') in 0.007778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Extension_01.fbx
+  artifactKey: Guid(a365cec43b7bf074aa0ed8996f657e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Extension_01.fbx using Guid(a365cec43b7bf074aa0ed8996f657e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a77b1f705c8a1204f6e4d1d1c424758b') in 0.007268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_05.fbx
+  artifactKey: Guid(c6b0ac6322cb2ca48b2168c4004cf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_05.fbx using Guid(c6b0ac6322cb2ca48b2168c4004cf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '790813989b5988ba9a3d5c20f8b4a9dd') in 0.006456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_02.fbx
+  artifactKey: Guid(f9eea6b97653248418af4a6ede1c568d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Models/SM_Bld_House_Foundation_02.fbx using Guid(f9eea6b97653248418af4a6ede1c568d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '79d5d0408618adf8ac0854f8c4f892bf') in 0.008002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 11.042681 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Arrow_Slit_01.prefab
+  artifactKey: Guid(b8087cfa32e21d2498d86305bbdbce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Arrow_Slit_01.prefab using Guid(b8087cfa32e21d2498d86305bbdbce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ef4af974fa37e7616dc25f83df34b548') in 0.015640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_04_Lite.prefab
+  artifactKey: Guid(73bc14e443072aa4d99d7c246a51370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_04_Lite.prefab using Guid(73bc14e443072aa4d99d7c246a51370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '874892ae54e7d0ab38a8c9b3f79a2d11') in 0.006216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_03_Lite.prefab
+  artifactKey: Guid(c030142463ad580429b680ac742166ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_03_Lite.prefab using Guid(c030142463ad580429b680ac742166ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cc84d8fa15c80b30d8ab228158817f74') in 0.004817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wall_01.prefab
+  artifactKey: Guid(77ad9661321c6e84280c8fbe32492c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wall_01.prefab using Guid(77ad9661321c6e84280c8fbe32492c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ec51e87c5e34b6c418f9c6d14811f8f1') in 0.004991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_01_Snow.prefab
+  artifactKey: Guid(a5d0481d2421b38458d7a3d90a2f39e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_01_Snow.prefab using Guid(a5d0481d2421b38458d7a3d90a2f39e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '765c9e0a06eb3fcd251e9b9ae79c9029') in 0.006990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Round_01_Lite.prefab
+  artifactKey: Guid(59fda38c2143a264fb1ca61086abcc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Round_01_Lite.prefab using Guid(59fda38c2143a264fb1ca61086abcc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6e3f8380c6b3a597bb8c27e87e051e64') in 0.005611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Top_01_Lite.prefab
+  artifactKey: Guid(d43900a9d4c0e224eaf62e1d618dd64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Top_01_Lite.prefab using Guid(d43900a9d4c0e224eaf62e1d618dd64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bdc60999d7e02c83a8bb96c51fa349db') in 0.004782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_02_Lite.prefab
+  artifactKey: Guid(608f0ba07d26e7642b8d36d0e0f851e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_02_Lite.prefab using Guid(608f0ba07d26e7642b8d36d0e0f851e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5b0f02ecc99734189ef1a040d7647531') in 0.005038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Wall_Top_01.prefab
+  artifactKey: Guid(576b6d70e3da01b489b5b99e260ddc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Wall_Top_01.prefab using Guid(576b6d70e3da01b489b5b99e260ddc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ec13601c03f4810d35706cbc8413ae8a') in 0.005065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Roof_Spire_01.prefab
+  artifactKey: Guid(2678ae1982dc1b74b99abd46d8ccb50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Roof_Spire_01.prefab using Guid(2678ae1982dc1b74b99abd46d8ccb50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b12d53761059a82c6a8acbe671a4d4e0') in 0.005314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wood_Battlement_03.prefab
+  artifactKey: Guid(67a1b5b881e15fd41bc03579410eb37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wood_Battlement_03.prefab using Guid(67a1b5b881e15fd41bc03579410eb37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7d3c61122b214f486d028af3d036e9de') in 0.005925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02.prefab
+  artifactKey: Guid(858952fd9f8e74140bf57e65ddc472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02.prefab using Guid(858952fd9f8e74140bf57e65ddc472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6ec4905c1b988a7fae65e75dca7bbced') in 0.005940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_02_Lite.prefab
+  artifactKey: Guid(e09787c8d837ec54a8b3fd13d1173b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Room_02_Lite.prefab using Guid(e09787c8d837ec54a8b3fd13d1173b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '53aee1718a00b530d35ff205f2ea74a1') in 0.006594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02_Snow.prefab
+  artifactKey: Guid(a549a6de16f98f84ebe678daba85b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02_Snow.prefab using Guid(a549a6de16f98f84ebe678daba85b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd639de128dbe186dfb93dae71228f703') in 0.005078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Door_01.prefab
+  artifactKey: Guid(68806ed2cec96b24f9e4c1fa06c68930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Church_Door_01.prefab using Guid(68806ed2cec96b24f9e4c1fa06c68930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '501014923df4297e2c00840afe8021fd') in 0.005226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_01_Lite.prefab
+  artifactKey: Guid(cd46f6361746af34ca29dec77bee51a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_01_Lite.prefab using Guid(cd46f6361746af34ca29dec77bee51a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '453dedffa5fec38313a7a9485f1dbbe7') in 0.006621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Base_02.prefab
+  artifactKey: Guid(0c66159e6cbb60a42831373af849b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Base_02.prefab using Guid(0c66159e6cbb60a42831373af849b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5842e58adaed4991897b449b059629dc') in 0.005342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Door_01.prefab
+  artifactKey: Guid(89ece42cbeee51544aacc46371afce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Door_01.prefab using Guid(89ece42cbeee51544aacc46371afce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c200566313ee95e053fef3dc591e3543') in 0.006395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.016193 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_01.prefab
+  artifactKey: Guid(b1ad8ef6890687249a641abef8e26baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_01.prefab using Guid(b1ad8ef6890687249a641abef8e26baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3bcbf9fa0f2a7826aa771f875e5a8f82') in 0.004768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.004245 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Top_01.prefab
+  artifactKey: Guid(20980883898f4704f86e6d74b75682ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Top_01.prefab using Guid(20980883898f4704f86e6d74b75682ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '25f6810159ac7fcaef9069854a1de3b5') in 0.006458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_04.prefab
+  artifactKey: Guid(6cc63cba898ace244bba643423dfda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_04.prefab using Guid(6cc63cba898ace244bba643423dfda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'af3be463a6125fc0e62c6d39ee6b3a68') in 0.006772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wall_Gate_01.prefab
+  artifactKey: Guid(a342473935e669649a9be973cda516c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wall_Gate_01.prefab using Guid(a342473935e669649a9be973cda516c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '49e237f4937d41ab1ab8669c37f03e5b') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wood_Detal_01.prefab
+  artifactKey: Guid(c74652422eeb7e14088334d69d323aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Wood_Detal_01.prefab using Guid(c74652422eeb7e14088334d69d323aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4bbad2a3bc4dabd0b03c05393724c9e0') in 0.005019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Round_Top_01.prefab
+  artifactKey: Guid(fa993d692bbb7fe4eadefb231970e8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Round_Top_01.prefab using Guid(fa993d692bbb7fe4eadefb231970e8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9554857507e801472e5a0ddda176e8b1') in 0.005705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 6.680696 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab using Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ba88f5b4b44952449614ed410eff72b3') in 0.071858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab using Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '987d87862213c5a05f7a0f6f6e5999cb') in 0.014692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab
+  artifactKey: Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab using Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '10843f66c9acbc466e664b6668d286be') in 0.022705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Orange.prefab
+  artifactKey: Guid(3b8c3b6dee6c92d4bb9953c1bbede39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Orange.prefab using Guid(3b8c3b6dee6c92d4bb9953c1bbede39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8e6eaa75bc22284629f15e0e312e341f') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab
+  artifactKey: Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab using Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3eada921c02dbd5405aaf65513828254') in 0.007628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab
+  artifactKey: Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab using Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '26a1e976b0e14ed83837e4ffc0338d6c') in 0.006837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Blue.prefab
+  artifactKey: Guid(cca9b8b9bbb59ce409c11aea054f6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Blue.prefab using Guid(cca9b8b9bbb59ce409c11aea054f6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '72c414362c55668dbf25396fa2d6ba05') in 0.007507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab
+  artifactKey: Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab using Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2188ec1410f7e9774670a9a9bf730e01') in 0.007815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Black.prefab
+  artifactKey: Guid(ef3c7a6cdd822654c9ff74c4222fa2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Black.prefab using Guid(ef3c7a6cdd822654c9ff74c4222fa2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '87ef095b323a280b4897a6dec3a8af25') in 0.006570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Blue.prefab
+  artifactKey: Guid(aa03ca6a3953ccc4397f5f35d2aa0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Blue.prefab using Guid(aa03ca6a3953ccc4397f5f35d2aa0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6786b51cd38e96ac46d3a1fb37d348da') in 0.006916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 5.509149 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue_FixedScale.prefab
+  artifactKey: Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue_FixedScale.prefab using Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '56f90ce8a13055ab3243ebe1e4ba4f4e') in 0.039450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Yellow_FixedScale.prefab
+  artifactKey: Guid(b3ec5bb107e4ee045acc3e270dfda7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Yellow_FixedScale.prefab using Guid(b3ec5bb107e4ee045acc3e270dfda7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a2f6d95380830cf533f822ec7886a9bc') in 0.008968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Yellow_FixedScale.prefab
+  artifactKey: Guid(617c7e2b14c38da47b2a3e63f9e6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Yellow_FixedScale.prefab using Guid(617c7e2b14c38da47b2a3e63f9e6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3fa55f7c84a685f56f3f7376ae62976c') in 0.010537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange_FixedScale.prefab
+  artifactKey: Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange_FixedScale.prefab using Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f3fbc076bae3840fb16dfb3a3180956a') in 0.007419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Black_FixedScale.prefab
+  artifactKey: Guid(f575356c591a52e47a3f6efa6c18f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Black_FixedScale.prefab using Guid(f575356c591a52e47a3f6efa6c18f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '23d87ee3dbb0ac265a18fde0285806c9') in 0.008504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Black_FixedScale.prefab
+  artifactKey: Guid(5baf554084cda7f43a0a3516b5c1d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Black_FixedScale.prefab using Guid(5baf554084cda7f43a0a3516b5c1d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c7dc36a310636f65498e03d2b912d36c') in 0.007149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Blue_FixedScale.prefab
+  artifactKey: Guid(2e75b803e4467054788c11f49c6c098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Blue_FixedScale.prefab using Guid(2e75b803e4467054788c11f49c6c098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e713eb908d2eb45847358e08571d98cd') in 0.008302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black_FixedScale.prefab
+  artifactKey: Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black_FixedScale.prefab using Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd1acfa174bf9ff7d972d2e6a461676c4') in 0.007564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Yellow_FixedScale.prefab
+  artifactKey: Guid(56cd13756af305d4c9e7610f1eccbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Yellow_FixedScale.prefab using Guid(56cd13756af305d4c9e7610f1eccbaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '496fd40f5b2e83b992945e511ea86137') in 0.007819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Yellow_FixedScale.prefab
+  artifactKey: Guid(8969766a85b8b71489ca8afcfb514097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Yellow_FixedScale.prefab using Guid(8969766a85b8b71489ca8afcfb514097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '50cbd31b6aba691e216860206af632de') in 0.007996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 6.977447 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Banner_02.prefab
+  artifactKey: Guid(d9d95bd4aa86d86448ff3c157b7bb366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Banner_02.prefab using Guid(d9d95bd4aa86d86448ff3c157b7bb366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4178c24eda139e8ccd147a2d0748dd1c') in 0.010368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Statue_01.prefab
+  artifactKey: Guid(015f23238a8ca9f4d80f824581484228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Statue_01.prefab using Guid(015f23238a8ca9f4d80f824581484228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '94939e6a2a94c1ba3521af143e21b46e') in 0.005899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Plinth_01.prefab
+  artifactKey: Guid(8a0ac44a0009f534c81764924bb79dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Plinth_01.prefab using Guid(8a0ac44a0009f534c81764924bb79dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4b19a1227b5afc80e52d87a8972264a0') in 0.009126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Lampost_01.prefab
+  artifactKey: Guid(5e1d462ffd80d7444837984e9e18388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Lampost_01.prefab using Guid(5e1d462ffd80d7444837984e9e18388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4a3d61240a1da539c5e1a5a7f27976db') in 0.006299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Trapdoor_01.prefab
+  artifactKey: Guid(decd5016c0f9a6744aecb456c0c2913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Trapdoor_01.prefab using Guid(decd5016c0f9a6744aecb456c0c2913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '39c4c15079025c8561320e024a2d943f') in 0.004727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Gravestone_02.prefab
+  artifactKey: Guid(0d6e5cb5406ecf648812fe2278838cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Gravestone_02.prefab using Guid(0d6e5cb5406ecf648812fe2278838cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8316fc7cccbb16da017a6cc44f6a2d1b') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_WaterWheel_01.prefab
+  artifactKey: Guid(190d4c69c7643e94c8c3a81ad97ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_WaterWheel_01.prefab using Guid(190d4c69c7643e94c8c3a81ad97ce81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '141bba9e3e0aec3392608138ee72ef9b') in 0.005230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Beam_01.prefab
+  artifactKey: Guid(67e45b9aed9a8fb4e86029884b2c05a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Beam_01.prefab using Guid(67e45b9aed9a8fb4e86029884b2c05a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '231387e4e27a596516e79d244a83e165') in 0.005425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Guillotine_01.prefab
+  artifactKey: Guid(df9f1d2dab4510b4d8d47ec43af7f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Guillotine_01.prefab using Guid(df9f1d2dab4510b4d8d47ec43af7f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '128c04196ec9994fc40e38ee5e657d0a') in 0.005303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Grate_01.prefab
+  artifactKey: Guid(f2bac0c9e640ce84e9b21a5f5f5dba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Grate_01.prefab using Guid(f2bac0c9e640ce84e9b21a5f5f5dba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '57244983b8609586cee4b271bc23bed7') in 0.005458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Cart_01.prefab
+  artifactKey: Guid(fd3d2a7dec61bb842a89089e1d1e6764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Cart_01.prefab using Guid(fd3d2a7dec61bb842a89089e1d1e6764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '185aabf61f39a254e33e7b28d83849c5') in 0.005496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Rowboat_01.prefab
+  artifactKey: Guid(4b52ac9f710a9a24bb72344a8ed0986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_Rowboat_01.prefab using Guid(4b52ac9f710a9a24bb72344a8ed0986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1d036932564175d7a8bcdda9bf7e9250') in 0.006247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_CartWheel_01.prefab
+  artifactKey: Guid(a46d562cc4980004b95e73322fc948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/SM_Prop_CartWheel_01.prefab using Guid(a46d562cc4980004b95e73322fc948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c643680a1905fe8c96d5f583a914de49') in 0.005189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.614055 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab
+  artifactKey: Guid(316022a1c585a7b45b3cc2f855960c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab using Guid(316022a1c585a7b45b3cc2f855960c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b2aad78990bdb3127983a0a5efc7244f') in 0.010946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_01.prefab
+  artifactKey: Guid(a7b97d24ba2370040ba159577de7b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_01.prefab using Guid(a7b97d24ba2370040ba159577de7b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c4a6c84f64fee15fd6441aadcec878c5') in 0.006304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Rapier_01.prefab
+  artifactKey: Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Rapier_01.prefab using Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd73b46f43a1ba7c78625245e481f5b1f') in 0.006048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab
+  artifactKey: Guid(d9997adaf286f9b45a050f836bce2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab using Guid(d9997adaf286f9b45a050f836bce2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '73660d49700c19d8a77da750cf2b0bbd') in 0.005601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 10.833668 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Cart_01_Snow.prefab
+  artifactKey: Guid(58b5596c2a042ab4c88e7cc17c107b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Cart_01_Snow.prefab using Guid(58b5596c2a042ab4c88e7cc17c107b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b8a9061a1ffcc48047497e977e2353ac') in 0.032083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Gravestone_02_Snow.prefab
+  artifactKey: Guid(e210e887242a7134abade0d1b832742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Gravestone_02_Snow.prefab using Guid(e210e887242a7134abade0d1b832742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '80cd979706f19d8aa02eb2621e1a8e7a') in 0.007472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_CartHay_01_Snow.prefab
+  artifactKey: Guid(aa763308863e10a47b22602d858ad492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_CartHay_01_Snow.prefab using Guid(aa763308863e10a47b22602d858ad492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fe0755c1bed5d9f5eb0294af312d6046') in 0.008257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Statue_Base_01_Snow.prefab
+  artifactKey: Guid(864b57f9f4a1e68488c3891d9599f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Statue_Base_01_Snow.prefab using Guid(864b57f9f4a1e68488c3891d9599f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7bd88f61faf814ba1298f3a278db8e5e') in 0.007153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Fence_02_Snow.prefab
+  artifactKey: Guid(a486d8006db09f74a99d133b8f12e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Fence_02_Snow.prefab using Guid(a486d8006db09f74a99d133b8f12e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '91a2c403b5a1ca92aacf59724e7f998a') in 0.010743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Statue_01_Snow.prefab
+  artifactKey: Guid(4c6c0304d24c75349a53d057cfe7b28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Statue_01_Snow.prefab using Guid(4c6c0304d24c75349a53d057cfe7b28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6c6824213a3ee82603dd1d033579ca69') in 0.007040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_WaterWheel_01_Snow.prefab
+  artifactKey: Guid(17a30343d1d0d9746b9002676b658c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_WaterWheel_01_Snow.prefab using Guid(17a30343d1d0d9746b9002676b658c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1f3f0ed0358b1ec02d4401160c62d4d2') in 0.007574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Plinth_02_Snow.prefab
+  artifactKey: Guid(725788c117f414c43b9511d525bd5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Plinth_02_Snow.prefab using Guid(725788c117f414c43b9511d525bd5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '530ba15dc2f3cc0ea3be5153a1304ce2') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Crate_01_Snow.prefab
+  artifactKey: Guid(a14aedf782d161543a1bd0a7d18e84ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Crate_01_Snow.prefab using Guid(a14aedf782d161543a1bd0a7d18e84ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd2260409f53603cdf29df84b336b7399') in 0.006626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Guillotine_01_Snow.prefab
+  artifactKey: Guid(5f766e69cffe20845b1337e48539a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Props/Snow/SM_Prop_Guillotine_01_Snow.prefab using Guid(5f766e69cffe20845b1337e48539a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1b2fd69c2c0064ab32f73989d30dc930') in 0.005069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.045399 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Canal_02.prefab
+  artifactKey: Guid(d150e6d2d6589744e86c10c51120cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Canal_02.prefab using Guid(d150e6d2d6589744e86c10c51120cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c830246d3ce0a6a6d55c5b4db5120cb3') in 0.011052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Flower_01.prefab
+  artifactKey: Guid(122f65ce20a93d54d9dcba16303e0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Flower_01.prefab using Guid(122f65ce20a93d54d9dcba16303e0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5158812fc5d93ca4ca64be1b6001617d') in 0.005287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_MountainGrass_02.prefab
+  artifactKey: Guid(4a6556da5abedc44594c45ac4a2cf5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_MountainGrass_02.prefab using Guid(4a6556da5abedc44594c45ac4a2cf5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fcc0d1d09cd1b4a52e27b71208fcc9ba') in 0.004726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_RockPile_03.prefab
+  artifactKey: Guid(0eba33735703d6b49a1773d1396db4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_RockPile_03.prefab using Guid(0eba33735703d6b49a1773d1396db4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6f5cbe5b53ed9d78287723b7714dee06') in 0.006076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Cobble_Stone_01.prefab
+  artifactKey: Guid(d9ca6272e5ae5c04db745d7397ddedb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Cobble_Stone_01.prefab using Guid(d9ca6272e5ae5c04db745d7397ddedb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a3dd44f4ce08aca31da0d4be91c97baa') in 0.006291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tile_Grass_01.prefab
+  artifactKey: Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tile_Grass_01.prefab using Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '050e1cbd2a46c80675fb25cb1c9a1c35') in 0.005789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(77c54194384c09a45b991556c9fe41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tree_Twisted_01.prefab using Guid(77c54194384c09a45b991556c9fe41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '899e7a16502ef7b17cbe5bd2a686ec08') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tree_Twisted_02.prefab
+  artifactKey: Guid(51c1c04146bac56469780953edd2418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Tree_Twisted_02.prefab using Guid(51c1c04146bac56469780953edd2418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3515fb85d0f66569738105f17e410265') in 0.004916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_01.prefab
+  artifactKey: Guid(c4ea6c556c8f2064a877d7f0982758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_01.prefab using Guid(c4ea6c556c8f2064a877d7f0982758f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b400af0e2758637e6fb9dcb98fcd39f9') in 0.005277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Stone_02.prefab
+  artifactKey: Guid(079fa19ccd7a3484f933ea909821713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Stone_02.prefab using Guid(079fa19ccd7a3484f933ea909821713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '4bca69605c3172b62c7da869df1ab49e') in 0.005192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Cliff_02.prefab
+  artifactKey: Guid(8a521154430ac7b4f84ecd2939a3f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Cliff_02.prefab using Guid(8a521154430ac7b4f84ecd2939a3f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '301304c47704c9caaa9e02fe97015419') in 0.004181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_04.prefab
+  artifactKey: Guid(ceaa0dad70b28974ebaa1df6c39af657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_04.prefab using Guid(ceaa0dad70b28974ebaa1df6c39af657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f553f4098f2bf01d2e8be9a817187e27') in 0.004684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Cobble_02.prefab
+  artifactKey: Guid(f19c957688bdf7849aa321d60569a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Cobble_02.prefab using Guid(f19c957688bdf7849aa321d60569a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '18811ae15cb8b9578dc646605c6a6410') in 0.005594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Cliff_01.prefab
+  artifactKey: Guid(b1c5ebf76ee684f4d9c641a1fc1523cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Cliff_01.prefab using Guid(b1c5ebf76ee684f4d9c641a1fc1523cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c9baf86f9370331842b34de52612ce40') in 0.005325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Stone_01.prefab
+  artifactKey: Guid(32949ef0637572547b3ec7683f284b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Stone_01.prefab using Guid(32949ef0637572547b3ec7683f284b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f368e0fa9e42b25deed86e9139a15e72') in 0.005267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_02.prefab
+  artifactKey: Guid(38e9f74e7ad2817489313b84c0695d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_02.prefab using Guid(38e9f74e7ad2817489313b84c0695d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'aae6cb01f4b7b0c7f288998d5160a616') in 0.005441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_06.prefab
+  artifactKey: Guid(9f84f38f7b779a54fb770311cc732a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_06.prefab using Guid(9f84f38f7b779a54fb770311cc732a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5c0e345880dd12f904d9f3d207e13641') in 0.004656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Tile_Corner_01.prefab
+  artifactKey: Guid(ec3399d2c026f3d42be5a32a04d6a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Tile_Corner_01.prefab using Guid(ec3399d2c026f3d42be5a32a04d6a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7d6abc106d021b4ab8fbf98c36862751') in 0.006183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_05.prefab
+  artifactKey: Guid(482e6fd5e9d0ec0459314a4fddeb2369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_05.prefab using Guid(482e6fd5e9d0ec0459314a4fddeb2369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3f44332fc4f600895dd5769ab7bbb90d') in 0.006234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Tile_01.prefab
+  artifactKey: Guid(0c8b53b4a2c2a624d8f344f282d709aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Tile_01.prefab using Guid(0c8b53b4a2c2a624d8f344f282d709aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bd4cd84a1eb7b2aec950812d322b2798') in 0.004367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_03.prefab
+  artifactKey: Guid(5192ca6ecc300684cb6da5af87a67b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Environments/SM_Env_Path_Dirt_03.prefab using Guid(5192ca6ecc300684cb6da5af87a67b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '79b55919db1aed3538b495e35cdbe1b1') in 0.004228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
