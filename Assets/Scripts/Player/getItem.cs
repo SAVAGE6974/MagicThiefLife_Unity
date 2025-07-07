@@ -44,7 +44,7 @@ public class getItem : MonoBehaviour
         {
             if (hit.collider.CompareTag("item") || hit.collider.tag.StartsWith("item"))
             {
-                if (Input.GetMouseButtonDown(0) 
+                if (Input.GetKeyDown(KeyCode.E) 
                     && !OpenInvnetory._isOpen && !OpenSkillSelectPannel._isOpen)
                 {
                     var itemObj = hit.collider.GetComponent<ItemObject>();

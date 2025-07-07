@@ -12,15 +12,16 @@ public class OpenStorePannel : MonoBehaviour
     
     public GameObject openStoreObject;
     public GameObject menuBar;
+    public GameObject BuyPannelDetail; // 구매 패널 상세 정보
 
     private void Awake()
     {
-        openStoreObject.SetActive(false);
+        menuBar.SetActive(false);
     }
-    
+
     public void OpenStore() // 이 메서드는 GetKeyDown(KeyCode.E)에 의해 호출됩니다.
     {
-        if (Input.GetKeyDown(KeyCode.E)) 
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (!isStoreOpen) // 현재 isStoreOpen을 기준으로 상점 열기/닫기를 결정합니다.
             {
@@ -38,6 +39,7 @@ public class OpenStorePannel : MonoBehaviour
                 isStoreOpen = false; // 상점이 닫혔음을 표시
                 uiOpenDetail.CloseDetailPanel(); // 상세 패널도 닫기
                 menuBar.SetActive(false); // 메뉴 바 비활성화
+                BuyPannelDetail.SetActive(false); // 구매 패널 상세 정보 비활성화
             }
         }
     }

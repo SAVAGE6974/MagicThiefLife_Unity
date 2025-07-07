@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Globalization;
+using Sirenix.OdinInspector; 
 
 public class UIOpenDetail : MonoBehaviour
 {
