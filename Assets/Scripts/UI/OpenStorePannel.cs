@@ -42,5 +42,17 @@ public class OpenStorePannel : MonoBehaviour
                 BuyPannelDetail.SetActive(false); // 구매 패널 상세 정보 비활성화
             }
         }
+        if (Input.GetKeyDown(KeyCode.Escape) && isStoreOpen)
+        {
+            openInvnetory.close(); // 인벤토리를 닫는 로직을 활용
+            openStoreObject.SetActive(false); // 상점 패널 비활성화
+            isStoreOpen = false; // 상점이 닫혔음을 표시
+            uiOpenDetail.CloseDetailPanel(); // 상세 패널도 닫기
+            menuBar.SetActive(false); // 메뉴 바 비활성화
+            BuyPannelDetail.SetActive(false); // 구매 패널 상세 정보 비활성화
+
+            Cursor.visible = false; // 커서 비활성화
+            Cursor.lockState = CursorLockMode.Locked; // 커서 잠금 상태로 변경
+        }
     }
 }

@@ -7,7 +7,7 @@ public class OpenInvnetory : MonoBehaviour
 {
     [SerializeField] private UIOpenDetail uiOpenDetail;
     [SerializeField] private OpenStorePannel openStorePannel; // OpenStorePannel 참조 추가
-    
+
     public GameObject _gameObject;
     public static bool _isOpen;
 
@@ -25,6 +25,11 @@ public class OpenInvnetory : MonoBehaviour
         if (!MenuBar.activeSelf && Input.GetKeyDown(KeyCode.Tab))
         {
             open();
+        }
+        if (!MenuBar.activeSelf && Input.GetKeyDown(KeyCode.Escape)
+        && _isOpen)
+        {
+            close();
         }
     }
 
@@ -52,7 +57,19 @@ public class OpenInvnetory : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             uiOpenDetail.CloseDetailPanel();
-            
+
         }
+    }
+
+    public void close()
+    {
+        _gameObject.SetActive(false);
+        _isOpen = false;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        uiOpenDetail.CloseDetailPanel();
+
+        Cursor.visible = false; // 커서 비활성화
+        Cursor.lockState = CursorLockMode.Locked; // 커서 잠금 상태로 변경
     }
 }

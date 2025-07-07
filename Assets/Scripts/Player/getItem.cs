@@ -2,12 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class getItem : MonoBehaviour
 {
     public float maxDistance = 20f;
     public List<Item> itemList = new List<Item>();
     private StolenItemUI stolenItemUI;
+
+    [InfoBox("현재 R구현은 안되여 있음. 현재 R버튼은 플레이어컴포넌트 데이터 삭제")]
+    public GameObject LeftCrossHair;
+    public GameObject RightCrossHair;
+
+    private void Awake()
+    {
+        LeftCrossHair.SetActive(false);
+        RightCrossHair.SetActive(false);
+    }
 
     private void Start()
     {
@@ -44,7 +55,10 @@ public class getItem : MonoBehaviour
         {
             if (hit.collider.CompareTag("item") || hit.collider.tag.StartsWith("item"))
             {
-                if (Input.GetKeyDown(KeyCode.E) 
+                LeftCrossHair.SetActive(true);
+                RightCrossHair.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E)
                     && !OpenInvnetory._isOpen && !OpenSkillSelectPannel._isOpen)
                 {
                     var itemObj = hit.collider.GetComponent<ItemObject>();
@@ -67,6 +81,11 @@ public class getItem : MonoBehaviour
                     }
                 }
             }
+        }
+        else
+        {
+            LeftCrossHair.SetActive(false);
+            RightCrossHair.SetActive(false);
         }
     }
 }
