@@ -92,7 +92,7 @@ public class Button_Sale : MonoBehaviour
         if (currentMoney < itemPrice)
         {
             Debug.LogWarning("소지 금액이 부족합니다! 현재 금액: " + currentMoney);
-            StartCoroutine(ChangeColorTemporarily(Color.red, Color.white, 1.5f));
+            StartCoroutine(ChangeColorTemporarily(new Color(0.8f, 0f, 0f), Color.white, 1.5f));
             return;
         }
 
