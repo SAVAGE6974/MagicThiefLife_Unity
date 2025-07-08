@@ -8,6 +8,8 @@ public class ItemObject : MonoBehaviour
     public string itemName;
     public float weight;
     public float price;
+
+    [TextArea(1, 5)]
     public string description;
     public Sprite itemIcon;
 
