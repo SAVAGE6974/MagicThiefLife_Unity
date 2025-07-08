@@ -21,4 +21,9 @@ public class Button_GotoGame : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
+
+    public void OnclickSettingGame()
+    {
+        SceneManager.LoadScene("SettingScene");
+    }
 }
