@@ -32,7 +32,7 @@ public class PlayermoveMent : MonoBehaviour
 
     private void Update()
     {
-        if (!OpenInvnetory._isOpen && !OpenSkillSelectPannel._isOpen)
+        if (!OpenInvnetory._isOpen && !OpenSkillSelectPannel._isOpen && !OpenEscapePannel._isOpen)
         {
             PlayerMovement();
             HandleMouseLook();

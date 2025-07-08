@@ -82,6 +82,7 @@
     <Compile Include="Assets/Scripts/Player/PlayermoveMent.cs" />
     <Compile Include="Assets/Scripts/Item/Item.cs" />
     <Compile Include="Assets/Scripts/Player/cheakReyCast.cs" />
+    <Compile Include="Assets/Scripts/Button/Button_ExcapePannelButtonManager.cs" />
     <Compile Include="Assets/Scripts/Button/Button_CloseManager.cs" />
     <Compile Include="Assets/Scripts/Button/Button_GotoGame.cs" />
     <Compile Include="Assets/Scripts/UI/SkillTimerUI.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets/Scripts/Player/getItem.cs" />
     <Compile Include="Assets/Scripts/Button/SaleButtonBG_Changer.cs" />
     <Compile Include="Assets/Scripts/Button/Button_OpenSaleDetaile.cs" />
+    <Compile Include="Assets/Scripts/UI/OpenEscapePannel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />

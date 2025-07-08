@@ -18,8 +18,11 @@ public class Button_GotoGame : MonoBehaviour
 
     public void OnclickQuitGame()
     {
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 
     public void OnclickSettingGame()
