@@ -15,13 +15,11 @@ public class DebugCursorHover : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log($"{gameObject.name} 에 마우스가 올라갔어요!");
         Cursor.SetCursor(hoverCursor, hotspot, CursorMode.Auto);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log($"{gameObject.name} 에서 마우스가 나갔어요!");
         Cursor.SetCursor(defaultCursor, hotspot, CursorMode.Auto);
     }
 }
