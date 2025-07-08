@@ -8,22 +8,26 @@ public class PlayermoveMent : MonoBehaviour
     public float _moveSpeed = 5f;
     private CharacterController _cc;
     public Transform playerCamera;
-    public float mouseSensitivity = 1000f;
+    public static float mouseSensitivity;
     public float rotation;
     
     public bool isMouseLookEnabled = true;
-    
+
     void Awake()
     {
         _cc = GetComponent<CharacterController>();
+
+        mouseSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 1000f);
     }
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        
-        mouseSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 1000f);
+
+        // mouseSensitivity = PlayerPrefs.GetFloat("MouseSensitivity");
+
+        Debug.Log(mouseSensitivity);
     }
 
     private void Update()

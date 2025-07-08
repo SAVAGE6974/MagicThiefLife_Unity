@@ -8,7 +8,7 @@ public class Button_GotoGame : MonoBehaviour
     public void OnclickGotoScene()
     {
         SceneManager.LoadScene("MainScene");
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("PlayerMoney");
     }
 
     public void OnclickGotoLoadScene()
