@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Sirenix.OdinInspector;
 
 public class StolenItemUI : MonoBehaviour
 {
-    public GameObject itemSlotPrefab; // 프리팹 연결
-    public Transform contentPanel_nomal; // Content 오브젝트 연결
+    [Required] public GameObject itemSlotPrefab; // 프리팹 연결
+    [Required] public Transform contentPanel_nomal; // Content 오브젝트 연결
 
     private List<GameObject> itemSlots = new List<GameObject>();
 

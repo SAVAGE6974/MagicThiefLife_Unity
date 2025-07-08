@@ -69,7 +69,6 @@ public class OpenInvnetory : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         uiOpenDetail.CloseDetailPanel();
 
-        Cursor.visible = false; // 커서 비활성화
-        Cursor.lockState = CursorLockMode.Locked; // 커서 잠금 상태로 변경
+        Cursor.visible = false; // 커서 비활성화z
     }
 }

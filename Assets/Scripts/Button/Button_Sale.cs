@@ -6,15 +6,15 @@ using Sirenix.OdinInspector;
 
 public class Button_Sale : MonoBehaviour
 {
-    [SerializeField] private UIOpenDetail uiOpenDetail;
+    [Required, SerializeField] private UIOpenDetail uiOpenDetail;
 
     [InfoBox("판매/구매 아이템 이름을 여기에 표시합니다.")]
-    public Text itemName;
-    public Text buyItemName;
+    [Required]public Text itemName;
+    [Required]public Text buyItemName;
 
     // 이 PlayerMoney Text는 UI에 현재 플레이어의 돈을 표시하는 데 사용됩니다.
     // PropertyManager의 PlayerMoneyTextUI와 동일한 Text 컴포넌트에 연결되어야 합니다.
-    public Text PlayerMoney;
+    [Required]public Text PlayerMoney;
 
     /// <summary>
     /// 판매 버튼에 연결

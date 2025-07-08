@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Sirenix.OdinInspector;
 
 public class PropertyManager : MonoBehaviour
 {
-    public Text PlayerMoneyTextUI; // UI Text와 변수 이름 충돌을 피하기 위해 이름 변경
+    [Required] public Text PlayerMoneyTextUI; // UI Text와 변수 이름 충돌을 피하기 위해 이름 변경
 
     private int currentMoney; // money 변수 이름 변경
 

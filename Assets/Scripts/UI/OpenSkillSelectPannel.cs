@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class OpenSkillSelectPannel : MonoBehaviour
 {
-    public GameObject skillUIPanel;
-    public GameObject mainPannel;
+    [Required] public GameObject skillUIPanel;
+    [Required] public GameObject mainPannel;
     
-    public static bool _isOpen = false;
-    public static bool _isUse = false;
+    [Required] public static bool _isOpen = false;
+    [Required] public static bool _isUse = false;
     private void Awake()
     {
         skillUIPanel.SetActive(false);

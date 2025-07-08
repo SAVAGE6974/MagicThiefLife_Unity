@@ -6,15 +6,15 @@ using Sirenix.OdinInspector;
 
 public class UIOpenDetail : MonoBehaviour
 {
-    [SerializeField] private OpenStorePannel openStorePannel;
+    [Required, SerializeField] private OpenStorePannel openStorePannel;
     
-    public GameObject DeatilePannel; // 상세 정보 패널 GameObject
-    public GameObject SalePannel;
-    public Image Icon;              // 상세 패널의 아이콘 Image 컴포넌트
-    public Text ItemName;           // 상세 패널의 아이템 이름 Text 컴포넌트
-    public Text Description;        // 상세 패널의 아이템 설명 Text 컴포넌트
-    public Text Price;
-    public GameObject cheakPrefab;  // 이 변수의 용도는 아직 불분명합니다.
+    [Required] public GameObject DeatilePannel; // 상세 정보 패널 GameObject
+    [Required] public GameObject SalePannel;
+    [Required] public Image Icon;              // 상세 패널의 아이콘 Image 컴포넌트
+    [Required] public Text ItemName;           // 상세 패널의 아이템 이름 Text 컴포넌트
+    [Required] public Text Description;        // 상세 패널의 아이템 설명 Text 컴포넌트
+    [Required] public Text Price;
+    [Required] public GameObject cheakPrefab;  // 이 변수의 용도는 아직 불분명합니다.
 
     private void Awake()
     {

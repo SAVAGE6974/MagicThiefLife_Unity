@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI; // UI Image를 사용하기 위해 필요
 using TMPro; // TextMeshProUGUI를 사용하기 위해 필요 (UI > Text - TextMeshPro를 사용했다면)
+using Sirenix.OdinInspector;
 
 public class SkillTimerUI : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class SkillTimerUI : MonoBehaviour
     public TextMeshProUGUI skillUsageText; // "키를 다시 눌러 사용" 텍스트 (선택 사항)
 
     [Header("Skill Settings")]
-    public float skillDuration = 5f; // 스킬이 지속될 시간 (초)
+    [Required, MinValue(1), MaxValue(30)] public float skillDuration = 5f; // 스킬이 지속될 시간 (초)
 
     private float _currentSkillTime; // 현재 남은 스킬 시간
     private bool _isSkillActive = false; // 스킬이 현재 활성화 중인지 여부
