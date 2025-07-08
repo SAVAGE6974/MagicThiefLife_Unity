@@ -1568,6 +1568,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 522603988}
+        m_TargetAssemblyTypeName: SaleButtonBG_Changer, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &413084665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1892,6 +1904,54 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Magic Pearl
+--- !u!1 &522603987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 522603989}
+  - component: {fileID: 522603988}
+  m_Layer: 0
+  m_Name: CanBuyItemChangeColorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &522603988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522603987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5849057a02d15498b8bef26f34924a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button1: {fileID: 2130273058}
+  buttonText1: {fileID: 2116878182}
+  button2: {fileID: 1732843509}
+  buttonText2: {fileID: 943224254}
+--- !u!4 &522603989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522603987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &535749951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,6 +2478,18 @@ MonoBehaviour:
       - m_Target: {fileID: 476324120}
         m_TargetAssemblyTypeName: Button_StorMenuBarButton, Assembly-CSharp
         m_MethodName: OnClickBuy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 522603988}
+        m_TargetAssemblyTypeName: SaleButtonBG_Changer, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6292,6 +6364,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732843509 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3433958259208900879, guid: 0ebf515b1d35c4652b2c0ef044ea2146, type: 3}
+  m_PrefabInstance: {fileID: 2000346350}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1740076100
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +7689,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3506771921269369728, guid: 0ebf515b1d35c4652b2c0ef044ea2146, type: 3}
   m_PrefabInstance: {fileID: 19300698}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130273058 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3433958259208900879, guid: 0ebf515b1d35c4652b2c0ef044ea2146, type: 3}
+  m_PrefabInstance: {fileID: 19300698}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2142469332
 GameObject:
   m_ObjectHideFlags: 0
@@ -7785,3 +7879,4 @@ SceneRoots:
   - {fileID: 408883427}
   - {fileID: 476324121}
   - {fileID: 1500608346}
+  - {fileID: 522603989}

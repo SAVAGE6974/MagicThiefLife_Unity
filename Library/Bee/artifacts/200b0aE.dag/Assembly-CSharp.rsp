@@ -376,6 +376,7 @@
 "Assets/Scripts/Button/Button_OpenSaleDetaile.cs"
 "Assets/Scripts/Button/Button_Sale.cs"
 "Assets/Scripts/Button/Button_StorMenuBarButton.cs"
+"Assets/Scripts/Button/SaleButtonBG_Changer.cs"
 "Assets/Scripts/Item/Item.cs"
 "Assets/Scripts/Item/ItemData.cs"
 "Assets/Scripts/Item/ItemDisplay.cs"
