@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/UI/StolenItemUI.cs" />
     <Compile Include="Assets/Scripts/UI/OpenInvnetory.cs" />
     <Compile Include="Assets/Scripts/UI/OpenStorePannel.cs" />
+    <Compile Include="Assets/Scripts/DebugCursorHover.cs" />
     <Compile Include="Assets/Scripts/UI/UIOpenDetail.cs" />
     <Compile Include="Assets/Scripts/UI/PlayerCrouch.cs" />
     <Compile Include="Assets/Scripts/Item/ItemData.cs" />
