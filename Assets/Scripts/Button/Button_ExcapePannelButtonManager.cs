@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Sirenix.OdinInspector;
+using JetBrains.Annotations;
 
 public class Button_ExcapePannelButtonManager : MonoBehaviour
 {
     [InfoBox("현재 InfoMation에 대한 버튼의 로직이 구현되지 않았습니다.")]
     public GameObject EscapePannel;
+    public GameObject AreUSure;
+
+    public static string whatIsPannel;
 
     public void OnclickBack()
     {
@@ -20,11 +24,13 @@ public class Button_ExcapePannelButtonManager : MonoBehaviour
 
     public void OnclickSetting()
     {
-        SceneManager.LoadScene("SettingScene");
+        AreUSure.SetActive(true);
+        whatIsPannel = "Setting";
     }
 
     public void OnclickGoToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        AreUSure.SetActive(true);
+        whatIsPannel = "GoToMenu";
     }
 }

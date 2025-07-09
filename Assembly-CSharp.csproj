@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/UI/UseUISkill.cs" />
     <Compile Include="Assets/Scripts/SceneWarning.cs" />
+    <Compile Include="Assets/Scripts/SkillManager.cs" />
     <Compile Include="Assets/Scripts/Item/ItemDisplay.cs" />
     <Compile Include="Assets/Scripts/Button/Button_Sale.cs" />
     <Compile Include="Assets/Scripts/UI/StolenItemUI.cs" />
@@ -76,11 +77,13 @@
     <Compile Include="Assets/Scripts/UI/PlayerCrouch.cs" />
     <Compile Include="Assets/Scripts/Item/ItemData.cs" />
     <Compile Include="Assets/Scripts/Item/ItemObject.cs" />
+    <Compile Include="Assets/Scripts/Player/RayCheak_teleport.cs" />
     <Compile Include="Assets/Scripts/Button/Button_StorMenuBarButton.cs" />
     <Compile Include="Assets/Scripts/UI/OpenSkillSelectPannel.cs" />
     <Compile Include="Assets/Scripts/Button/MouseSensitivityChangeManager.cs" />
     <Compile Include="Assets/Scripts/Player/PlayermoveMent.cs" />
     <Compile Include="Assets/Scripts/Item/Item.cs" />
+    <Compile Include="Assets/Scripts/Button/Button_AreUSureManager.cs" />
     <Compile Include="Assets/Scripts/Player/cheakReyCast.cs" />
     <Compile Include="Assets/Scripts/Button/Button_ExcapePannelButtonManager.cs" />
     <Compile Include="Assets/Scripts/Button/Button_CloseManager.cs" />

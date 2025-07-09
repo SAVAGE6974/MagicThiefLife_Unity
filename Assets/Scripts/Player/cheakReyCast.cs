@@ -29,7 +29,6 @@ public class cheakReyCast : MonoBehaviour
                 OpenStoreCrossHair.SetActive(true);
                 openStorePannel.OpenStore();
             }
-
         }
         else
         {

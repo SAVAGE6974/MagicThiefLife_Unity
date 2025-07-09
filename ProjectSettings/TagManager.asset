@@ -6,6 +6,7 @@ TagManager:
   tags:
   - item
   - store
+  - entity
   layers:
   - Default
   - TransparentFX

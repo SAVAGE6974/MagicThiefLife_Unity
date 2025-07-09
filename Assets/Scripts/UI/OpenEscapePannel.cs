@@ -10,12 +10,15 @@ public class OpenEscapePannel : MonoBehaviour
     [FoldoutGroup("Pannels")] public GameObject SkillSelectPannel;
     [FoldoutGroup("Pannels")] public GameObject MenuBarPannel;
 
+    public GameObject AreUSure;
+
     public GameObject EscapePannel;
     public static bool _isOpen = false;
 
     private void Awake()
     {
         EscapePannel.SetActive(false);
+        AreUSure.SetActive(false);
     }
 
     private void Update()
