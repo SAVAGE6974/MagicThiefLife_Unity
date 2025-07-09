@@ -3754,6 +3754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CrossHire: {fileID: 2028595271}
   maxDistance: 20
+  player: {fileID: 627409663}
 --- !u!1 &634309313
 GameObject:
   m_ObjectHideFlags: 0

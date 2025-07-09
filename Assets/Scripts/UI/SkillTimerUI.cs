@@ -6,6 +6,13 @@ using System.Linq; // OrderBy를 사용하기 위해 필요
 
 public class SkillTimerUI : MonoBehaviour
 {
+    public static SkillTimerUI Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     [System.Serializable]
     public class SkillBarEntry
     {
@@ -206,15 +213,7 @@ public class SkillTimerUI : MonoBehaviour
         {
             if (skillBar.skillNumber == skillNumToEnd && skillBar.isActive)
             {
-                skillBar.currentRemainingTime = 0f; // 즉시 0으로 설정하여 Update에서 종료되도록 유도
-                // 또는 직접 종료 로직을 여기에 복사해도 됩니다:
-                // skillBar.isActive = false;
-                // if (skillBar.fillBar != null) skillBar.fillBar.fillAmount = 0f;
-                // if (skillBar.uiPanel != null) skillBar.uiPanel.SetActive(false);
-                // if (skillBar.skillText != null) skillBar.skillText.text = "";
-                // if (skillBar.skillNumber == 2) IsSkill2Active = false; // 스킬 2인 경우 static 변수도 업데이트
-                // Debug.Log($"스킬 {skillBar.skillNumber} 타이머 강제 종료!");
-                // break; // 해당 스킬을 찾았으면 루프 종료
+                skillBar.currentRemainingTime = 0f;
             }
         }
     }

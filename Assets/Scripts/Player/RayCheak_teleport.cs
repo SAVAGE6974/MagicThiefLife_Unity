@@ -7,13 +7,12 @@ public class RayCheak_teleport : MonoBehaviour
 {
     public Image CrossHire;
     public float maxDistance = 20f;
+    public GameObject player;
 
-    // CrossHire의 기본 색상을 저장할 변수
     private Color defaultCrossHireColor;
 
     private void Start()
     {
-        // 시작 시 CrossHire의 기본 색상을 저장합니다.
         if (CrossHire != null)
         {
             defaultCrossHireColor = CrossHire.color;
@@ -32,6 +31,29 @@ public class RayCheak_teleport : MonoBehaviour
                 if (CrossHire != null)
                 {
                     CrossHire.color = Color.yellow;
+                }
+
+                if (Input.GetMouseButtonDown(0)) // 좌클릭
+                {
+                    Vector3 targetPosition = hit.collider.transform.position;
+                    Vector3 teleportPosition = targetPosition + new Vector3(-1f, 0f, 0f);
+
+                    if (player != null)
+                    {
+                        CharacterController cc = player.GetComponent<CharacterController>();
+                        if (cc != null)
+                        {
+                            cc.enabled = false;
+                            player.transform.position = teleportPosition;
+                            cc.enabled = true;
+                        }
+                        else
+                        {
+                            player.transform.position = teleportPosition;
+                        }
+
+                        SkillTimerUI.Instance.ForceEndSkill(2);
+                    }
                 }
             }
             else
