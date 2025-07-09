@@ -24,7 +24,8 @@ public class RayCheak_teleport : MonoBehaviour
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
 
-        if (SkillTimerUI.IsSkill2Active && Physics.Raycast(ray, out hit, maxDistance))
+        // SkillTimerUI.IsSkill2Active 대신 SkillTimerUI.IsSkill5Active 사용
+        if (SkillTimerUI.IsSkill5Active && Physics.Raycast(ray, out hit, maxDistance)) 
         {
             if (hit.collider.CompareTag("entity"))
             {
@@ -52,7 +53,8 @@ public class RayCheak_teleport : MonoBehaviour
                             player.transform.position = teleportPosition;
                         }
 
-                        SkillTimerUI.Instance.ForceEndSkill(2);
+                        // 스킬 2를 종료하는 대신 스킬 5를 종료하도록 변경
+                        SkillTimerUI.Instance.ForceEndSkill(5); 
                     }
                 }
             }

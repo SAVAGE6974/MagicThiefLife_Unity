@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class OpenInvnetory : MonoBehaviour
@@ -12,12 +13,14 @@ public class OpenInvnetory : MonoBehaviour
     public static bool _isOpen;
 
     public GameObject MenuBar; // 메뉴 바 오브젝트
+    public GameObject inventoryMenuBar;
 
 
     private void Awake()
     {
         _gameObject.SetActive(false);
         _isOpen = false;
+        inventoryMenuBar.SetActive(false);
     }
 
     private void Update()
@@ -25,12 +28,14 @@ public class OpenInvnetory : MonoBehaviour
         if (!MenuBar.activeSelf && Input.GetKeyDown(KeyCode.Tab))
         {
             open();
+            
         }
         if (!MenuBar.activeSelf && Input.GetKeyDown(KeyCode.Escape)
         && _isOpen)
         {
             close();
         }
+
     }
 
     public void open()
@@ -43,12 +48,15 @@ public class OpenInvnetory : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             uiOpenDetail.CloseDetailPanel();
 
+            inventoryMenuBar.SetActive(true);
+
             // 인벤토리를 열 때 상점 상태를 false로 강제 설정
             if (openStorePannel != null)
             {
                 openStorePannel.isStoreOpen = false;
                 openStorePannel.openStoreObject.SetActive(false); // 상점 오브젝트도 비활성화
             }
+
         }
         else
         {
@@ -58,6 +66,7 @@ public class OpenInvnetory : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             uiOpenDetail.CloseDetailPanel();
 
+            inventoryMenuBar.SetActive(false);
         }
     }
 
@@ -70,5 +79,7 @@ public class OpenInvnetory : MonoBehaviour
         uiOpenDetail.CloseDetailPanel();
 
         Cursor.visible = false; // 커서 비활성화z
+
+        inventoryMenuBar.SetActive(false);
     }
 }

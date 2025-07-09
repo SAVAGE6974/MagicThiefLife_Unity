@@ -93,6 +93,7 @@
     <Compile Include="Assets/Scripts/UI/PropertyManager.cs" />
     <Compile Include="Assets/Scripts/Player/getItem.cs" />
     <Compile Include="Assets/Scripts/Button/SaleButtonBG_Changer.cs" />
+    <Compile Include="Assets/Scripts/UI/WeaponSkillManager.cs" />
     <Compile Include="Assets/Scripts/Button/Button_OpenSaleDetaile.cs" />
     <Compile Include="Assets/Scripts/UI/OpenEscapePannel.cs" />
   </ItemGroup>

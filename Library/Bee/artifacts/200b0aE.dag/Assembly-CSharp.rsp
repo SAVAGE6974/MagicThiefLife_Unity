@@ -404,6 +404,7 @@
 "Assets/Scripts/UI/StolenItemUI.cs"
 "Assets/Scripts/UI/UIOpenDetail.cs"
 "Assets/Scripts/UI/UseUISkill.cs"
+"Assets/Scripts/UI/WeaponSkillManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

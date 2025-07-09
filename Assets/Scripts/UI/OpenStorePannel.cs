@@ -12,6 +12,7 @@ public class OpenStorePannel : MonoBehaviour
     
     public GameObject openStoreObject;
     public GameObject menuBar;
+    public GameObject inventoryMeunuBar;
     public GameObject BuyPannelDetail; // 구매 패널 상세 정보
 
     private void Awake()
@@ -30,7 +31,8 @@ public class OpenStorePannel : MonoBehaviour
                 isStoreOpen = true; // 상점이 열렸음을 표시
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
-                menuBar.SetActive(true); // 메뉴 바 비활성화
+                menuBar.SetActive(true);
+                inventoryMeunuBar.SetActive(false);
             }
             else // 상점이 이미 열려있는 경우 (닫기)
             {
