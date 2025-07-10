@@ -17,10 +17,14 @@ public class OpenInvnetory : MonoBehaviour
     public static bool _isOpenEquipment = false;
     public GameObject invnetDetailPannel;
     public GameObject equipmentDetailPannel;
+    public GameObject equipmentmenuBarPannel;
 
     public GameObject MenuBar;              // 메뉴 바 (게임 전체 UI 바 등)
     public GameObject inventoryMenuBar;     // 인벤토리 상단 바 UI
     public GameObject inventoryUnderBar;
+
+    // --- 새로 추가: 인벤토리가 Escape 키로 방금 닫혔는지 여부를 나타내는 플래그 ---
+    public static bool _justClosedByEscape = false; 
 
     private void Awake()
     {
@@ -29,6 +33,7 @@ public class OpenInvnetory : MonoBehaviour
         inventoryMenuBar.SetActive(false);
         inventoryUnderBar.SetActive(false);
         equipmentDetailPannel.SetActive(false);
+        equipmentmenuBarPannel.SetActive(false);
     }
 
     private void Update()
@@ -41,6 +46,9 @@ public class OpenInvnetory : MonoBehaviour
         if (!MenuBar.activeSelf && Input.GetKeyDown(KeyCode.Escape) && _isOpen)
         {
             close();
+            // --- 새로 추가: Escape로 닫았을 때 플래그를 true로 설정 ---
+            _justClosedByEscape = true; 
+            // 이 플래그는 OpenEscapePannel에서 확인 후 바로 초기화될 것입니다.
         }
     }
 
@@ -70,6 +78,8 @@ public class OpenInvnetory : MonoBehaviour
                 openStorePannel.isStoreOpen = false;
                 openStorePannel.openStoreObject.SetActive(false);
             }
+            // --- 새로 추가: 인벤토리가 열릴 때는 이 플래그를 false로 초기화 (바로 Escape를 누를 상황이 아니므로) ---
+            _justClosedByEscape = false; 
         }
         else
         {
@@ -80,6 +90,9 @@ public class OpenInvnetory : MonoBehaviour
             uiOpenDetail.CloseDetailPanel();
 
             inventoryMenuBar.SetActive(false);
+
+            equipmentDetailPannel.SetActive(false);
+            equipmentmenuBarPannel.SetActive(false);
         }
     }
 
@@ -93,6 +106,8 @@ public class OpenInvnetory : MonoBehaviour
         uiOpenDetail.CloseDetailPanel();
 
         inventoryMenuBar.SetActive(false);
+        equipmentDetailPannel.SetActive(false);
+        equipmentmenuBarPannel.SetActive(false);
     }
 
     // "Equipment"라는 이름이 포함된 오브젝트만 비활성화
