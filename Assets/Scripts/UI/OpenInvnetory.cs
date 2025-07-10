@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,8 +10,12 @@ public class OpenInvnetory : MonoBehaviour
     [SerializeField] private UIOpenDetail uiOpenDetail;
     [SerializeField] private OpenStorePannel openStorePannel; // 상점 패널 참조
 
+    [InfoBox("_isOpenEquipment를 이용하여 디테일패널 변경할 예정")]
+
     public GameObject _gameObject;          // 인벤토리 패널
     public static bool _isOpen;
+    public static bool _isOpenEquipment = false;
+    public GameObject invnetDetailPannel;
 
     public GameObject MenuBar;              // 메뉴 바 (게임 전체 UI 바 등)
     public GameObject inventoryMenuBar;     // 인벤토리 상단 바 UI
@@ -112,6 +117,8 @@ public class OpenInvnetory : MonoBehaviour
         }
         inventoryUnderBar.SetActive(true);
 
+        _isOpenEquipment = true;
+        invnetDetailPannel.SetActive(false);
     }
 
     // Equipment는 활성화, Item은 비활성화
@@ -141,6 +148,8 @@ public class OpenInvnetory : MonoBehaviour
             ToggleEquipmentAndItem(obj);
         }
         inventoryUnderBar.SetActive(false);
+
+        _isOpenEquipment = false;
     }
 
     // Item은 활성화, Equipment는 비활성화
