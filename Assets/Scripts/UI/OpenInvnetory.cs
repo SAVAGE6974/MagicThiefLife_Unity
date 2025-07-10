@@ -16,6 +16,7 @@ public class OpenInvnetory : MonoBehaviour
     public static bool _isOpen;
     public static bool _isOpenEquipment = false;
     public GameObject invnetDetailPannel;
+    public GameObject equipmentDetailPannel;
 
     public GameObject MenuBar;              // 메뉴 바 (게임 전체 UI 바 등)
     public GameObject inventoryMenuBar;     // 인벤토리 상단 바 UI
@@ -27,6 +28,7 @@ public class OpenInvnetory : MonoBehaviour
         _isOpen = false;
         inventoryMenuBar.SetActive(false);
         inventoryUnderBar.SetActive(false);
+        equipmentDetailPannel.SetActive(false);
     }
 
     private void Update()
@@ -150,6 +152,8 @@ public class OpenInvnetory : MonoBehaviour
         inventoryUnderBar.SetActive(false);
 
         _isOpenEquipment = false;
+
+        equipmentDetailPannel.SetActive(false);
     }
 
     // Item은 활성화, Equipment는 비활성화

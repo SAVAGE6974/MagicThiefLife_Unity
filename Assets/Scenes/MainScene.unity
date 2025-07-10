@@ -888,6 +888,7 @@ MonoBehaviour:
   openStorePannel: {fileID: 0}
   _gameObject: {fileID: 1273767077}
   invnetDetailPannel: {fileID: 289100677}
+  equipmentDetailPannel: {fileID: 504940189}
   MenuBar: {fileID: 777984630}
   inventoryMenuBar: {fileID: 1629863950}
   inventoryUnderBar: {fileID: 1827962479}
