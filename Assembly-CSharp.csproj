@@ -102,6 +102,7 @@
     <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
     <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Object.shader" />
     <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Global.shader" />
+    <None Include="Assets/Free Stylized Skybox/ReadMe.txt" />
     <None Include="Assets/SyntyStudios/PolygonPrototype/Shaders/Prototype_Glass_Object.shader" />
   </ItemGroup>
   <ItemGroup>
