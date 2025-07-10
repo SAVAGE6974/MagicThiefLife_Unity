@@ -395,6 +395,7 @@
 "Assets/Scripts/SkillManager.cs"
 "Assets/Scripts/UI/ItemSlotUIHandler.cs"
 "Assets/Scripts/UI/OpenEscapePannel.cs"
+"Assets/Scripts/UI/OpenInventory_equipMent.cs"
 "Assets/Scripts/UI/OpenInvnetory.cs"
 "Assets/Scripts/UI/OpenSkillSelectPannel.cs"
 "Assets/Scripts/UI/OpenStorePannel.cs"

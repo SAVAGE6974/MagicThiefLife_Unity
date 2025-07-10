@@ -80,6 +80,7 @@
     <Compile Include="Assets/Scripts/Player/RayCheak_teleport.cs" />
     <Compile Include="Assets/Scripts/Button/Button_StorMenuBarButton.cs" />
     <Compile Include="Assets/Scripts/UI/OpenSkillSelectPannel.cs" />
+    <Compile Include="Assets/Scripts/UI/OpenInventory_equipMent.cs" />
     <Compile Include="Assets/Scripts/Button/MouseSensitivityChangeManager.cs" />
     <Compile Include="Assets/Scripts/Player/PlayermoveMent.cs" />
     <Compile Include="Assets/Scripts/Item/Item.cs" />

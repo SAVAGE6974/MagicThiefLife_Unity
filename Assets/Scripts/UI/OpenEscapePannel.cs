@@ -42,5 +42,4 @@ public class OpenEscapePannel : MonoBehaviour
             _isOpen = false;
         }
     }
-
 }

@@ -5,6 +5,8 @@ using Sirenix.OdinInspector;
 
 public class StolenItemUI : MonoBehaviour
 {
+    [InfoBox("아이템 추가시 조건문도 함께 수동적으로 추가해야지 됩니다.")]
+
     [Required] public GameObject itemSlotPrefab; // 프리팹 연결
     [Required] public Transform contentPanel_nomal; // Content 오브젝트 연결
 
@@ -19,8 +21,11 @@ public class StolenItemUI : MonoBehaviour
 
         GameObject slot = Instantiate(itemSlotPrefab, contentPanel_nomal);
 
-        // 슬롯 이름에 고유 번호 붙이기
-        slot.name = $"ItemSlot_{name}";
+        // 슬롯 이름에 고유 번호 붙이기 "조건문 추가필요"
+        if (name == "GreatSword") slot.name = $"ItemSlot_{name}_Equipment_Hand";
+        else if (name == "LongSword") slot.name = $"ItemSlot_{name}_Equipment_Hand";
+        else if (name == "Magic Pearl") slot.name = $"ItemSlot_{name}_Item";
+        else if (name == "Magic Stick") slot.name = $"ItemSlot_{name}_Item";
 
         // 리스트에 추가해서 관리
         itemSlots.Add(slot);
