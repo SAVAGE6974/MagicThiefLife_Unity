@@ -24,37 +24,48 @@ public class OpenStorePannel : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (!isStoreOpen) // 현재 isStoreOpen을 기준으로 상점 열기/닫기를 결정합니다.
+            if (!isStoreOpen) 
             {
-                openInvnetory.open(); // 인벤토리를 열고 닫는 로직을 활용
-                openStoreObject.SetActive(true); // 상점 패널 활성화
-                isStoreOpen = true; // 상점이 열렸음을 표시
+                // 상점 열기
+                openInvnetory.open(); // 인벤토리를 닫거나 열어서 UI 상태를 맞춤
+                openStoreObject.SetActive(true); 
+                isStoreOpen = true; 
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
                 menuBar.SetActive(true);
                 inventoryMeunuBar.SetActive(false);
+                // 상점이 열릴 때는 Escape 닫힘 플래그를 false로 초기화
+                OpenInvnetory._justClosedByEscape = false; 
             }
-            else // 상점이 이미 열려있는 경우 (닫기)
+            else 
             {
-                openInvnetory.open(); // 인벤토리를 닫는 로직을 활용 (커서 상태 등)
-                openStoreObject.SetActive(false); // 상점 패널 비활성화
-                isStoreOpen = false; // 상점이 닫혔음을 표시
-                uiOpenDetail.CloseDetailPanel(); // 상세 패널도 닫기
-                menuBar.SetActive(false); // 메뉴 바 비활성화
-                BuyPannelDetail.SetActive(false); // 구매 패널 상세 정보 비활성화
+                // 상점 닫기
+                openInvnetory.open(); // 인벤토리를 닫거나 열어서 UI 상태를 맞춤
+                openStoreObject.SetActive(false); 
+                isStoreOpen = false; 
+                uiOpenDetail.CloseDetailPanel(); 
+                menuBar.SetActive(false); 
+                BuyPannelDetail.SetActive(false); 
+                // 상점이 닫힐 때는 Escape 닫힘 플래그를 false로 초기화 (E키로 닫았으므로)
+                OpenInvnetory._justClosedByEscape = false;
             }
         }
+
+        // Escape 키를 눌러 상점을 닫는 로직
         if (Input.GetKeyDown(KeyCode.Escape) && isStoreOpen)
         {
-            openInvnetory.close(); // 인벤토리를 닫는 로직을 활용
-            openStoreObject.SetActive(false); // 상점 패널 비활성화
-            isStoreOpen = false; // 상점이 닫혔음을 표시
-            uiOpenDetail.CloseDetailPanel(); // 상세 패널도 닫기
-            menuBar.SetActive(false); // 메뉴 바 비활성화
-            BuyPannelDetail.SetActive(false); // 구매 패널 상세 정보 비활성화
+            openInvnetory.close(); // 인벤토리를 닫는 로직을 활용 (커서 등)
+            openStoreObject.SetActive(false); 
+            isStoreOpen = false; 
+            uiOpenDetail.CloseDetailPanel(); 
+            menuBar.SetActive(false); 
+            BuyPannelDetail.SetActive(false); 
 
-            Cursor.visible = false; // 커서 비활성화
-            Cursor.lockState = CursorLockMode.Locked; // 커서 잠금 상태로 변경
+            Cursor.visible = false; 
+            Cursor.lockState = CursorLockMode.Locked; 
+            
+            // --- 중요: 상점이 Escape 키로 닫혔음을 알리는 플래그 설정 ---
+            OpenInvnetory._justClosedByEscape = true;
         }
     }
 }
