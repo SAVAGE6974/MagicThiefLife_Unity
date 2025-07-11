@@ -13,7 +13,7 @@ public class OpenEscapePannel : MonoBehaviour
     public GameObject AreUSure;
 
     public GameObject EscapePannel;
-    public static bool _isOpen = false;
+    public static bool _isOpen;
 
     private void Awake()
     {

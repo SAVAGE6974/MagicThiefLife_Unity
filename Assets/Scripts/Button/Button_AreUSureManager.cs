@@ -12,12 +12,14 @@ public class Button_AreUSureManager : MonoBehaviour
         if (Button_ExcapePannelButtonManager.whatIsPannel == "Setting")
         {
             SceneManager.LoadScene("SettingScene");
+            OpenEscapePannel._isOpen = false;
             Button_ExcapePannelButtonManager.whatIsPannel = "";
             PlayerPrefs.Save();
         }
         else if (Button_ExcapePannelButtonManager.whatIsPannel == "GoToMenu")
         {
             SceneManager.LoadScene("MainMenu");
+            OpenEscapePannel._isOpen = false;
             Button_ExcapePannelButtonManager.whatIsPannel = "";
             PlayerPrefs.Save();
         }

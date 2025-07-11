@@ -14,7 +14,7 @@ public class OpenInvnetory : MonoBehaviour
 
     public GameObject _gameObject;          // 인벤토리 패널
     public static bool _isOpen;
-    public static bool _isOpenEquipment = false;
+    public static bool _isOpenEquipment;
     public GameObject invnetDetailPannel;
     public GameObject equipmentDetailPannel;
     public GameObject equipmentmenuBarPannel;

@@ -8,7 +8,7 @@ public class OpenStorePannel : MonoBehaviour
     [SerializeField] private UIOpenDetail uiOpenDetail;
 
     // 혼란을 줄 수 있으므로 제거하거나 용도를 명확히 하는 것이 좋습니다.
-    public bool isStoreOpen = false; // 이 변수가 상점 상태를 나타내는 주 변수입니다.
+    public bool isStoreOpen; // 이 변수가 상점 상태를 나타내는 주 변수입니다.
     
     public GameObject openStoreObject;
     public GameObject menuBar;

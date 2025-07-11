@@ -9,7 +9,7 @@ public class OpenSkillSelectPannel : MonoBehaviour
     [Required] public GameObject skillUIPanel;
     [Required] public GameObject mainPannel;
     
-    [Required] public static bool _isOpen = false;
+    [Required] public static bool _isOpen;
     [Required] public static bool _isUse = false;
     private void Awake()
     {
