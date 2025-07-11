@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/UI/UseUISkill.cs" />
     <Compile Include="Assets/Scripts/SceneWarning.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerCrouch.cs" />
     <Compile Include="Assets/Scripts/SkillManager.cs" />
     <Compile Include="Assets/Scripts/Item/ItemDisplay.cs" />
     <Compile Include="Assets/Scripts/Button/Button_Sale.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Assets/Scripts/UI/OpenStorePannel.cs" />
     <Compile Include="Assets/Scripts/DebugCursorHover.cs" />
     <Compile Include="Assets/Scripts/UI/UIOpenDetail.cs" />
-    <Compile Include="Assets/Scripts/UI/PlayerCrouch.cs" />
     <Compile Include="Assets/Scripts/Item/ItemData.cs" />
     <Compile Include="Assets/Scripts/Item/ItemObject.cs" />
     <Compile Include="Assets/Scripts/Player/RayCheak_teleport.cs" />
