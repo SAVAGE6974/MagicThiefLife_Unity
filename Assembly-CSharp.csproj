@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/SkillManager.cs" />
     <Compile Include="Assets/Scripts/Item/ItemDisplay.cs" />
     <Compile Include="Assets/Scripts/Button/Button_Sale.cs" />
+    <Compile Include="Assets/SunsetManager.cs" />
     <Compile Include="Assets/Scripts/UI/StolenItemUI.cs" />
     <Compile Include="Assets/Scripts/UI/OpenInvnetory.cs" />
     <Compile Include="Assets/Scripts/UI/OpenStorePannel.cs" />
